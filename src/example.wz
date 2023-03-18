@@ -1,0 +1,25 @@
+// Declare variables
+let x = 5;
+let y = 10;
+let sum = x + y;
+
+// Print the result
+print("Sum: " + sum);
+
+// Use if statements
+if (sum > 10) {
+    print("The sum is greater than 10");
+} else {
+    print("The sum is less than or equal to 10");
+}
+
+// Work with arrays
+let arr = [1, 2, 3];
+arr.append(4);
+print("Array: " + arr);
+
+// Use boolean values
+let z = (6 > 5);
+if (z) {
+    print("6 is greater than 5");
+}
