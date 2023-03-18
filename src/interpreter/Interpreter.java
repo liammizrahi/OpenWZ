@@ -33,6 +33,7 @@ public class Interpreter {
             return;
         }
 
+
         Lexer lexer = new Lexer(input);
         List<Token> tokens = lexer.tokenize();
         Parser parser = new Parser(tokens);
